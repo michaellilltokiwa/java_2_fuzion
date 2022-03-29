@@ -1,0 +1,4 @@
+HelloWorld is
+  add(a i32, b i32) =>
+    res := a + b
+    res

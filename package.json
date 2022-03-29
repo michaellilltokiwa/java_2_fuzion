@@ -1,0 +1,16 @@
+{
+  "name": "java_2_fuzion",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "transliterate java to fuzion",
+  "main": "index.js",
+  "author": "Michael Lill",
+  "license": "MIT",
+  "scripts": {
+    "transliterate": "node index.js Hello.java > Hello.fz"
+  },
+  "devDependencies": {
+    "tree-sitter": "^0.20.0",
+    "tree-sitter-java": "github:tree-sitter/tree-sitter-java"
+  }
+}
